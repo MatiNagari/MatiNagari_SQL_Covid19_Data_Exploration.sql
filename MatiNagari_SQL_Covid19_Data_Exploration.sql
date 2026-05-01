@@ -1,10 +1,27 @@
 /*
-=============================================================
-  Covid-19 Data Exploration
-  Author : Mati Nagari
-  Database: PortfolioProj
-  
-  Skills Demonstrated:
+=============================================================================================
+COVID-19 DATA EXPLORATION
+Author   : Mati Nagari
+Database : PortfolioProj
+Dataset  : Our World in Data (Global COVID-19 Dataset)
+=============================================================================================
+
+EXECUTIVE SUMMARY: 
+Conducted a global analysis of COVID-19 impact, focusing on the correlation between 
+infection rates and vaccination rollouts. Developed a multi-stage reporting layer 
+that tracks rolling vaccination totals and mortality percentages by continent.
+
+BUSINESS PROBLEM: 
+Global health data is often fragmented. This project provides a unified view of pandemic 
+progression to help stakeholders understand the efficacy of vaccination rollouts and 
+identify high-mortality risk zones.
+
+RECOMMENDATIONS: 
+1. Use rolling vaccination totals to predict when a region hits stability thresholds.
+2. Cross-reference death rates with GDP (Next Phase) to analyze healthcare equity.
+3. Prioritize "First-Dose Penetration" as a primary KPI for resource-strained regions.
+
+SKILLS DEMONSTRATED:
     - Joins
     - CTEs (Common Table Expressions)
     - Temp Tables
@@ -13,7 +30,7 @@
     - Creating Views
     - Converting Data Types
     - NULLIF for safe division
-=============================================================
+=============================================================================================
 */
 
 
